@@ -1,7 +1,7 @@
 {
   "name": "tranquil-browser",
   "main": "./lib/tranquil-browser",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Tranquil Browser - Browser in Pulsar",
   "repository": "https://github.com/tranquil-ai/tranquil-browser",
   "author": "bitsquant <https://github.com/bitsquant>",
