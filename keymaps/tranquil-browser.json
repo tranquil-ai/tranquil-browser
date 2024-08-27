@@ -1,0 +1,17 @@
+{
+  ".platform-win32 atom-workspace, .platform-linux atom-workspace": {
+    "ctrl-t": "tranquil-browser:open",
+    "ctrl-shift-a": "tranquil-browser:add-to-tree-view"
+  },
+  ".platform-darwin atom-workspace": {
+    "cmd-t": "tranquil-browser:open",
+    "cmd-shift-a": "tranquil-browser:add-to-tree-view"
+  },
+  ".tranquil-browser webview": {
+    "tab": "native!",
+    "shift-tab": "native!",
+    "click": "native!",
+    "pagedown": "native!",
+    "pageup": "native!"
+  }
+}

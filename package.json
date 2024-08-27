@@ -1,0 +1,41 @@
+{
+  "name": "tranquil-browser",
+  "main": "./lib/tranquil-browser",
+  "version": "0.1.0",
+  "description": "Tranquil Browser - Browser in Pulsar",
+  "repository": "https://github.com/tranquil-ai/tranquil-browser",
+  "author": "bitsquant <https://github.com/bitsquant>",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "~2.0.3",
+    "jquery": "^2.1.4",
+    "jquery-ui": "1.10.5",
+    "theorist": "~1.0.2",
+    "lodash": "~3.10.1",
+    "jstorage": "~0.4.8",
+    "JSON2": "~0.1.0",
+    "cheerio": "~0.20.0",
+    "node-uuid": ">=1.4.7"
+  },
+  "consumedServices": {
+  },
+  "providedServices": {
+  },
+  "keywords": [
+    "browser",
+    "webbrowser",
+    "web view",
+    "web-view",
+    "html preview",
+    "html",
+    "preview",
+    "tranquil-browser"
+  ],
+  "uriHandler": {
+    "method": "handleURI",
+    "deferActivation": false
+  }
+}
