@@ -3,7 +3,7 @@
   "main": "./lib/tranquil-browser",
   "author": "bitsquant <https://github.com/bitsquant>",
   "productName": "Tranquil Browser",
-  "version": "0.3.0",
+  "version": "0.1.0",
   "description": "Tranquil Browser - Browser in Pulsar",
   "repository": "https://github.com/tranquil-ai/tranquil-browser",
   "license": "MIT",
