@@ -1,7 +1,7 @@
 {
   "name": "tranquil-browser",
   "main": "./lib/tranquil-browser",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Tranquil Browser - Browser in Pulsar",
   "repository": "https://github.com/tranquil-ai/tranquil-browser",
   "author": "bitsquant <https://github.com/bitsquant>",
@@ -20,10 +20,8 @@
     "cheerio": "~0.20.0",
     "node-uuid": ">=1.4.7"
   },
-  "consumedServices": {
-  },
-  "providedServices": {
-  },
+  "consumedServices": {},
+  "providedServices": {},
   "keywords": [
     "browser",
     "webbrowser",
