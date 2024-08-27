@@ -1,0 +1,350 @@
+@import 'ui-variables';
+@import 'octicon-utf-codes';
+@import 'colors.less';
+//@import "font-awesome.min.css";
+
+.tranquil-browser #title {
+  width: 100%;
+  background-color: lightblue;
+  color: green;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bolder;
+}
+.ui-helper-hidden-accessible {
+  display: none;
+}
+.tranquil-browser .hideURLBar {
+  display: none;
+}
+.ui-autocomplete {
+  position: absolute;
+  top: 105%;
+  left: 0;
+  z-index: 1000;
+  float: left;
+  display: none;
+  min-width: 160px;
+  padding: 12px;
+  margin: 0 0 10px 25px;
+  list-style: none;
+  background-color: @white;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+}
+
+.ui-menu-item > a.ui-corner-all {
+  display: block;
+  padding: 3px 15px;
+  clear: both;
+  font-weight: normal;
+  line-height: 18px;
+  color: @blue-one;
+  white-space: nowrap;
+  text-decoration: none;
+  -webkit-border-radius: 2.5px;
+  -moz-border-radius: 2.5px;
+  border-radius: 2.5px;
+}
+
+.ui-state-focus {
+  background: none !important;
+  border: none !important;
+  text-decoration: none;
+  background-color: #eeeeee !important;
+}
+
+// .icon-tranquil-browsers {
+//   font-family: 'fontello-print';
+
+//   text-decoration: inherit;
+//   margin-right: 0.2em;
+//   text-align: center;
+//   /* opacity: .8; */
+
+//   /* For safety - reset parent styles, that can break glyph codes*/
+//   font-variant: normal;
+//   text-transform: none;
+
+//   /* fix buttons height, for twitter bootstrap */
+//   line-height: 1em;
+
+//   /* Animation center compensation - margins should be symmetric */
+//   /* remove if not needed */
+//   margin-left: 0.2em;
+
+//   /* you can be more comfortable with increased icons size */
+//   font-weight: 900;
+//   font-size: 1.7em;
+//   display: inline-block;
+//   padding-left: 0.2em;
+//   padding-right: 0.2em;
+//   color: #aaaaaa;
+//   margin-left: 0.1em;
+//   border: 1px solid transparent;
+
+//   /* Font smoothing. That was taken from TWBS */
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+
+//   /* Uncomment for 3D effect */
+//   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+// }
+
+// .icon-print:before {
+//   content: '\e800';
+// } /* '' */
+
+.tranquil-browser #lbl-url {
+  color: green;
+  font-size: 18px;
+  height: 1.25ln;
+}
+.tranquil-browser #url {
+  height: 1.25ln;
+  font-size: 18px;
+  color: green;
+}
+.tranquil-browser .url-bc {
+  width: 100%;
+}
+.tranquil-browser .url-bc input {
+  width: 100%;
+}
+.tranquil-browser .nav-btns {
+  overflow: hidden;
+}
+
+.tranquil-browser .mega-octicon {
+  font-family: 'Octicons Regular';
+  font-weight: 900;
+  font-size: 1.7em;
+  display: inline-block;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  color: #aaaaaa;
+  margin-left: 0.1em;
+  border: 1px solid transparent;
+}
+
+.tranquil-browser .octicon {
+  font-family: 'Octicons Regular';
+  display: inline-block;
+  padding-right: 0.2em;
+  color: #aaaaaa;
+  font-weight: 200;
+  font-size: 1.4em;
+}
+
+div.tranquil-browser webview {
+  height: calc(100% - 48px);
+  // background-color: white;
+  background-color: #1a1d35;
+}
+webview::shadow {
+  height: 95%;
+}
+// .tranquil-browser span:hover {
+//   background-color: lightyellow;
+// }
+.tranquil-browser .clicked {
+  color: green;
+}
+
+.tranquil-browser .octicon-file-pdf::before {
+  content: '\f014';
+}
+
+// .tranquil-browser .octicon-book {
+//   display: none;
+// }
+.tranquil-browser .octicon-book::before {
+  content: '\f007';
+}
+
+.tranquil-browser .octicon-mobile::before {
+  content: '\f038';
+}
+
+.tranquil-browser .octicon-pin {
+  display: none;
+}
+.tranquil-browser .octicon-pin::before {
+  content: '\f041';
+}
+
+.tranquil-browser .octicon-arrow-left::before {
+  content: '\f040';
+}
+.tranquil-browser .octicon-arrow-right::before {
+  content: '\f03e';
+}
+.tranquil-browser .octicon-sync::before {
+  content: '\f087';
+}
+// .tranquil-browser .octicon-arrow-down {
+//   display: none;
+// }
+.tranquil-browser .octicon-arrow-down::before {
+  content: '\f03f';
+}
+.tranquil-browser .octicon-zap {
+  display: none;
+}
+.tranquil-browser .octicon-zap::before {
+  content: '\26A1';
+}
+.tranquil-browser .octicon-tools::before {
+  content: '\f031';
+}
+
+.tranquil-browser .octicon-star::before {
+  content: '\f02a';
+}
+
+.tranquil-browser .octicon-book::before {
+  content: '\f007';
+}
+.tranquil-browser .octicon-eye::before {
+  content: '\f04e';
+}
+
+.tranquil-browser .octicon-thumbsup::before {
+  content: '\f000';
+}
+.tranquil-browser .active {
+  color: green;
+}
+.tranquil-browser #title {
+  background-color: lightblue;
+}
+
+.input-url-bc {
+  overflow: hidden;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.fa-spinner {
+  animation-name: spin;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.fa-custom {
+  display: none !important;
+}
+
+.fa:hover {
+  text-decoration: none !important;
+}
+
+.find-bc {
+  width: 200px !important;
+  height: 25px;
+  position: absolute;
+  border-radius: 30px;
+  padding-left: 5px;
+}
+
+.find-hide-bc {
+  display: none;
+}
+
+.nav-btns-left-bc {
+  float: left;
+}
+
+.nav-btns-right-bc {
+  float: right;
+}
+
+@font-face {
+  font-family: 'fontello-print';
+  font-style: normal;
+  font-weight: normal;
+  src: url(atom://tranquil-browser/resources/fontello/font/fontello.woff) format('woff');
+}
+
+// APM Hub styles
+.url-bc {
+  padding: 4px;
+  background: @blue-four;
+  height: 48px;
+}
+
+.nav-btns-left-bc,
+.nav-btns-right-bc {
+  background: @blue-one;
+  border-radius: 4px 0 0 4px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.nav-btns-left-bc {
+  padding: 9px 0 9px 12px;
+}
+.nav-btns-right-bc {
+  padding: 9px 12px 9px 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.nav-btns-bc {
+  height: 100%;
+}
+
+.input-url-bc {
+  display: flex;
+  background: @blue-one;
+  padding: 4px 0;
+  height: 100%;
+}
+
+.input-url-bc input {
+  background: @blue-four;
+  color: @white !important;
+  height: 100%;
+  border: none;
+  padding: 0 8px;
+  border-radius: 4px;
+  margin: 0 8px;
+  font-size: 14px;
+}
+
+.apm-browser-icon-wrapper {
+  height: 100%;
+  aspect-ratio: 1;
+}
+.apm-browser-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.apm-browser-icon-divider {
+  width: 2px;
+  height: 100%;
+  background: @blue-four;
+}

@@ -1,0 +1,51 @@
+{
+  "context-menu": {
+    "[data-type='HTMLEditor']": [
+      {
+        "label": "Open tab in new window",
+        "command": "tranquil-browser:open-link-in-new-window"
+      },
+      {
+        "label": "Add URL to Treeview",
+        "command": "tranquil-browser:add-to-tree-view"
+      }, {
+        "label": "Open new tab",
+        "command": "tranquil-browser:open"
+      } 
+    ],
+    ".input-url-bc": [
+      {
+        "label": "Cut",
+        "command": "core:cut"
+      }, {
+        "label": "Copy",
+        "command": "core:copy"
+      } ,{
+        "label": "Paste",
+        "command": "core:paste"
+      },{
+        "label": "Select all",
+        "command": "core:select-all"
+      },{
+        "label": "Add URL to Treeview",
+        "command": "tranquil-browser:add-to-tree-view"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "label": "Open URL in new window",
+        "command": "tranquil-browser:open-link-in-new-window"
+      },{
+        "label": "Open URL in default browser",
+        "command": "tranquil-browser:open-link-in-default-browser"
+      }
+    ],
+    "atom-text-editor": [
+      {
+        "label": "Open Tranquil browser",
+        "command": "tranquil-browser:open"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tranquil-Browser:Blank</title>
+    <script>
+      history.pushState('data', 'Blank', 'tranquil-browser://blank');
+      ( async () => {
+        await new Promise(r => setTimeout(r, 100));
+        window?.electron?.send('tab-focus');
+      } )();
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
